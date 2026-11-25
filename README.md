@@ -6,6 +6,8 @@
 2. Browse to the newer Vastra launcher EXE and select it.
 3. Click **Update Build** to save it as **Vastra Loader.exe** in your Windows Downloads folder. If a copy is already there, confirm before replacing it.
 
-The updater displays the current and selected file versions when the EXEs provide them. The activity console shows the source and destination paths and reports any copy errors.
+The updater displays the Deadlock build targeted by the selected loader when it can read that ID from the EXE. It checks the pending build reported by your local Steam client, or your installed Steam build when no pending build is listed. It shows whether the IDs match.
+
+After saving, the updater opens Explorer with the saved file selected. **Show in Downloads** opens it again, and the activity console records the full path and any copy errors.
 
 The separate [Deadlock Build Updater](https://github.com/xconsmen/VastraUpdater/raw/main/Deadlock-Build-Updater.exe) manages the Steam game.
