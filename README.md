@@ -8,6 +8,6 @@
 
 The updater displays the Deadlock build targeted by the selected loader when it can read that ID from the EXE. It checks the pending build reported by your local Steam client, or your installed Steam build when no pending build is listed. It shows whether the IDs match.
 
-After saving, the updater opens Explorer with the saved file selected. **Show in Downloads** opens it again, and the activity console records the full path and any copy errors.
+The activity console records the saved file path and any copy errors. Click **Show in Downloads** to open Explorer with the saved file selected.
 
 The separate [Deadlock Build Updater](https://github.com/xconsmen/VastraUpdater/raw/main/Deadlock-Build-Updater.exe) manages the Steam game.
