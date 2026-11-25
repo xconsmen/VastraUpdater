@@ -1,11 +1,11 @@
 # Vastra Updater
 
-A standalone Windows x64 utility for copying a launcher you select into your Downloads folder. Open the updater, select a launcher EXE, and check the destination shown in the confirmation dialog.
+[Download Launcher-Updater.exe](https://github.com/xconsmen/VastraUpdater/raw/main/Launcher-Updater.exe) for Windows x64.
 
-Download the updater from [Releases](https://github.com/xconsmen/VastraUpdater/releases).
+1. Open **Launcher-Updater.exe** and click **Choose Latest Build**.
+2. Browse to the newer Vastra launcher EXE and select it.
+3. Click **Update Build** to save it as **Vastra Loader.exe** in your Windows Downloads folder. If a copy is already there, confirm before replacing it.
 
-## Deadlock Build Updater
+The updater displays the current and selected file versions when the EXEs provide them. The activity console shows the source and destination paths and reports any copy errors.
 
-Open [Deadlock-Build-Updater.exe](https://github.com/xconsmen/VastraUpdater/raw/main/Deadlock-Build-Updater.exe) on Windows. **Choose Latest Build** opens a file picker for a Steam Deadlock app manifest (`appmanifest_1422450.acf`). The selected build ID comes from the file's pending target, when present, or its installed build.
-
-**Update Build** hands off to Steam. Steam controls which build is available on your selected branch. The manifest supplies a build ID and Steam supplies the game files.
+The separate [Deadlock Build Updater](https://github.com/xconsmen/VastraUpdater/raw/main/Deadlock-Build-Updater.exe) manages the Steam game.
